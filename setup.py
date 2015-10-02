@@ -30,6 +30,7 @@ history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 INSTALL_REQUIRES = [
     'django>=1.6',
     'pypdf2',
+    'reportlab',
 ]
 
 setup(
